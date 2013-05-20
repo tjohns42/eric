@@ -1,0 +1,376 @@
+/*
+Theme Name: Hip Hop Summit
+Theme URI: www.hiphopsummitms.com
+Description: A theme for ACLU.
+Author: Tyler Johnson
+Author URI: www.tnjdesigns.com
+Version: 1.0
+*/
+
+/* Reset Styles */
+
+*{margin: 0; padding: 0; font-family: Verdanda, Arial, sans-serif;}
+a{border: none; text-decoration: none; color: #0072bc;}
+a:hover{text-decoration: underline;}
+a img{border: none;}
+.clear{clear: both; float: none;}
+li{list-style: none;}
+.left{float: left;}
+.right{float: right;}
+
+/* Global Styles */
+
+body{
+		background-image: url(images/bg.jpg);
+		background-attachment:fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 100%;
+}
+
+.container{
+		background: #fff;
+		box-shadow: 0 0 10px 3px rgba(0,0,0,0.75);
+		margin: 0 auto;
+		min-height: 100%;
+		position: relative;
+		width: 960px;
+}
+
+footer{
+		background-color: #333;
+		position: absolute;
+				bottom: 0;
+		width: 100%;
+}
+
+footer p{
+		color: #777;
+		font-size: 12px;
+		text-align: center;
+		padding: 10px 0;
+}
+
+.gallery{
+		border-bottom: 2px solid #005586;
+		border-top: 2px solid #005586;
+		margin: 0 50px 0 -30px;
+		max-height: 510px;
+		overflow-y: auto;
+		padding: 0 0 20px 0;
+		width: 638px;
+}
+
+.gallery p{
+		display: inline-block;
+		float: left;
+		padding: 0;
+		margin: 20px 0 0 20px;
+}
+
+.gallery p a img{
+		border-radius: 5px;
+		display: inline-block;
+		position: relative;
+		-moz-transition: all 0.5s;
+		-o-transition: all 0.5s;
+		-webkit-transition: all 0.5s;
+		transition: all 0.5s;
+}
+
+.gallery p a img:hover{
+		box-shadow: 0 12px 6px -10px rgba(0,0,0,0.75);
+		top: -5px;
+}
+
+h1{
+		font-family: 'Oswald', Verdanda, sans-serif;
+		font-size: 34px;
+		line-height: 38px;
+}
+
+h2{
+		font-family: 'Oswald', Verdanda, sans-serif;
+		font-size: 28px;
+}
+
+h3{
+		font-family: 'Oswald', Verdanda, sans-serif;
+		font-size: 22px;
+}
+
+header{
+		background-color: #444;
+		background-image: url(images/bg-header.png);
+		background-repeat: repeat-x;
+		height: 175px;
+		position: relative;
+}
+
+header h1{
+		padding: 35px 0 0 300px;
+}
+
+header h1 a:hover{
+		text-decoration: none;
+}
+
+header h1 a span.one{
+		color: #0b85d5;
+		font-family: 'Cinzel', Georgia, serif;
+		font-size: 65px;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+}
+
+header h1 a span.two{
+		color: #ee8215;
+		display: block;
+		font-family: 'Rock Salt', Verdanda, sans-serif;
+		font-size: 36px;
+		margin: -25px 0 0 -45px;
+		text-shadow: 0 0 2px #ee8215;
+		transform:rotate(-3deg);
+		-ms-transform:rotate(-3deg);
+		-moz-transform:rotate(-3deg);
+		-webkit-transform:rotate(-3deg); 
+		-o-transform:rotate(-3deg);
+}
+
+header .logo{
+		height: 175px;
+		position: absolute;
+				top: 0;
+				left: 0;
+				z-index: 10;
+}
+
+header nav{
+		border-bottom: 2px solid #222;
+		border-top: 2px solid #222;
+		position: absolute;
+				bottom: 0;
+		width: 100%;
+}
+
+header nav ul{
+		text-align: right;
+		padding: 0 100px 0 0;
+}
+
+header nav ul li{
+		display: inline-block;
+}
+
+header nav ul li a{
+		color: #ee8215;
+		padding: 0 10px;
+		font-family: 'Rock Salt', Verdanda, sans-serif;
+		font-size: 16px;
+		font-weight: bold;
+		line-height: 35px;
+}
+
+header nav ul li a:hover{
+		text-decoration: none;
+		text-shadow: 0 0 3px #ee8215;
+}
+
+html{
+		height: 100%;
+}
+
+.main{
+		background-color: #fff;
+		padding: 30px 10px 50px 30px;
+		min-height: 500px;
+}
+
+.main aside{
+		border-left: 2px solid #005586;
+		float: right;
+		padding: 20px 0 20px 10px;
+		width: 300px;
+}
+
+.main aside h2{
+		font-size: 20px;
+		margin: 10px 0 0 10px;
+}
+
+.main aside iframe{
+		border: none;
+}
+
+.main aside ul.social-links{
+		text-align: center;
+}
+
+.main aside ul.social-links li{
+		display: inline-block;
+		padding: 0 5px;
+}
+
+.main aside ul.widgets{
+		margin: 0 auto;
+		width: 250px;
+}
+
+.main .content{
+		float: left;
+		width: 608px
+}
+
+.main .content .blog{
+		margin: 20px 0 0 0;
+}
+
+.main .content .blog .entry{
+		padding: 0 20px 0 0;
+}
+
+.main .content .blog .entry .postmetadata{
+		font-size: 12px;
+		margin: 10px 0 0 10px;
+}
+
+.main .content h2{
+		color: #005586;
+}
+
+p{
+		font-size: 14px;
+		padding: 0 0 10px 0;
+}
+
+p a{
+		text-decoration: underline;
+}
+
+.blue{
+		color: #005586;
+}
+
+.orange{
+		color: #ee8215;
+}
+
+.cursive{
+		font-family: 'Rock Salt', Verdanda, sans-serif;
+}
+
+/* contact page */
+
+#form-container{
+ width: 100%;
+}
+
+#form-container form input{
+		border: 1px solid #444;
+		border-radius: 12px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		font-size: 14px;
+		height: 30px;
+		outline: none;
+		padding: 0 0 0 10px;
+		margin: 0 0 20px 0;
+		width: 100%;
+}
+
+#form-container form input:focus{
+  box-shadow: 0px 0px 3px 1px #ee8215;
+}
+
+#form-container form input[name='captcha']{
+		margin-left: 10px;
+		width: 60px;
+}
+
+#form-container form input[type='submit']{
+		color: #fff;
+		cursor: pointer;
+		background-color: #ee8215;
+		border: 1px solid #222;
+		border-radius: 3px;
+		display: block;
+		float: right;
+		font-size: 12px;
+		line-height: 14px;
+		padding: 5px 5px;
+		margin: 0 20px 0 0;
+		text-align: center;
+		text-transform: uppercase;
+		width: 75px;
+}
+
+#form-container form input[name='submit']:hover{
+		background-color: #ff9000;
+}
+
+#form-container form input[name='submit']:active{
+		font-size: 11px;
+		margin: 0 22px 0 1px;
+		padding: 4px 9px;
+}
+
+#form-container form label{
+		font-size: 14px;
+		line-height: 20px;
+		padding: 0 0 5px 10px;
+}
+
+#form-container form label span{
+		color: #ee8215;
+}
+
+#form-container form textarea{
+		border: 1px solid #444;
+		border-radius: 12px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		font-size: 14px;
+		height: 100px;
+		outline: none;
+		padding: 10px 0 0 10px;
+		margin: 0 0 20px 0;
+		width: 100%;
+}
+
+#form-container form textarea:focus{
+  box-shadow: 0px 0px 3px 1px #ee8215;
+}
+
+#form-container #forminfo{
+		display: inline-block;
+		float: right;
+		font-size: 10px;
+		margin: 0;
+		padding: 0;
+}
+
+#form-container #forminfo span{
+		color: #ee8215;
+		font-size: 14px;
+}
+
+#form-container #returntext{
+		height: 30px;
+}
+
+#form-container #returntext p{
+		font-size: 16px;
+		font-weight: bold;
+		padding: 15px 0;
+		text-align: center;
+}
+
+#form-container #returntext .failure{
+		color: #9e0b0f;
+}
+
+#form-container #returntext .success{
+		color: #00a651;
+}
